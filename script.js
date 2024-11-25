@@ -76,7 +76,7 @@ function updateAreas(){
         let name = area.getAttribute('data-name')   
         
         if(area.querySelector('.item') !== null){
-            area[name] = area.querySelector('.item').innerHTML
+            areas[name] = area.querySelector('.item').innerHTML
         } else {
             areas[name] = null
         }
